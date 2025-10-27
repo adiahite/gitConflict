@@ -13,11 +13,14 @@
 using namespace std;
 
 void say(string s);
+int add(int a, int b);
 
 int main()
 {
     cout << "Greeting.\n";
     cout << "Hello world!" << endl;
+    cout << "3 + 5 = " << add(3,5) << endl;
+    say("Hello!! ");
 
     return 0;
 }
@@ -25,4 +28,8 @@ int main()
 void say(string s)
 {
     cout << s << endl;
+}
+int add(int a, int b)
+{
+    return a + b;
 }
