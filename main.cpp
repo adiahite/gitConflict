@@ -18,6 +18,7 @@ int main()
 {
     cout << "Greeting.\n";
     cout << "Hello world!" << endl;
+    cout << " 3 + 5 = " << add(3,5) << endl;
 
     return 0;
 }
